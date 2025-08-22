@@ -1,0 +1,112 @@
+{
+ "metadata": {
+  "id": "NesLib.NesLib",
+  "version": "0.4.0",
+  "description": "NesLib Base Library",
+  "authors": "Erik van Bilsen",
+  "projectUrl": "https://github.com/neslib/Neslib",
+  "repositoryUrl": "https://github.com/VSoftTechnologies/Neslib",
+  "repositoryCommit": "#HASH#",
+  "license": "BSD-2-Clause",
+  "copyright": "2022 Erik van Bilsen",
+  "tags": "json parser",
+  "readme": "README.md"
+ },
+ "targetPlatforms": [
+  {
+   "compiler": "XE2",
+   "platforms": "Win32, Win64, OSX32",
+   "template": "default"
+  },
+  {
+   "compiler": "XE3",
+   "platforms": "Win32, Win64, OSX32",
+   "template": "default"
+  },
+  {
+   "compiler": "XE4",
+   "platforms": "Win32, Win64, OSX32, iOS32, iOSSimulator",
+   "template": "default"
+  },
+  {
+   "compiler": "XE5",
+   "platforms": "Win32, Win64, OSX32, Android, iOS32, iOSSimulator",
+   "template": "default"
+  },
+  {
+   "compiler": "XE6",
+   "platforms": "Win32, Win64, OSX32, Android, iOS32, iOSSimulator",
+   "template": "default"
+  },
+  {
+   "compiler": "XE7",
+   "platforms": "Win32, Win64, OSX32, Android, iOS32, iOSSimulator",
+   "template": "default"
+  },
+  {
+   "compiler": "XE8",
+   "platforms": "Win32, Win64, OSX32, Android, iOS32, iOS64, iOSSimulator",
+   "template": "default"
+  },
+  {
+   "compiler": "10.0",
+   "platforms": "Win32, Win64, OSX32, Android, iOS32, iOS64, iOSSimulator",
+   "template": "default"
+  },
+  {
+   "compiler": "10.1",
+   "platforms": "Win32, Win64, OSX32, Android, iOS32, iOS64, iOSSimulator",
+   "template": "default"
+  },
+  {
+   "compiler": "10.2",
+   "platforms": "Win32, Win64, OSX32, Android, iOS32, iOS64, iOSSimulator, LinuxIntel64",
+   "template": "default"
+  },
+  {
+   "compiler": "10.3",
+   "platforms": "Win32, Win64, OSX32, OSX64, Android, Android64, iOS32, iOS64, iOSSimulator, LinuxIntel64",
+   "template": "default"
+  },
+  {
+   "compiler": "10.4",
+   "platforms": "Win32, Win64, OSX64, Android, Android64, iOS64, iOSSimulator, LinuxIntel64",
+   "template": "default"
+  },
+  {
+   "compiler": "11.0",
+   "platforms": "Win32, Win64, OSX64, OSXARM64, Android, Android64, iOS64, LinuxIntel64",
+   "template": "default"
+  },
+  {
+   "compiler": "12.0",
+   "platforms": "Win32, Win64, OSX64, OSXARM64, Android, Android64, iOS64, LinuxIntel64",
+   "template": "default"
+  },
+  {
+   "compiler": "13.0",
+   "platforms": "Win32, Win64, OSX64, OSXARM64, Android, Android64, iOS64, LinuxIntel64",
+   "template": "default"
+  }
+ ],
+ "templates": [
+  {
+   "name": "default",
+   "source": [
+    {
+     "src": "*.pas",
+     "dest": "src"
+    },
+    {
+     "src": "*.inc",
+     "dest": "src"
+    }
+   ],
+   "searchPaths": [
+    {
+     "path": "src"
+    }
+   ]
+  }
+ ]
+}
