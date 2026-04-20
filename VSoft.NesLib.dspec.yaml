@@ -8,8 +8,8 @@ metadata:
   version: 0.4.0
   authors: [ Erik van Bilsen" ]
   description: NesLib Base Library
-  projectUrl: https://github.com/VSoftTechnologies/Delphi-Mocks
-  repositoryUrl: https://github.com/VSoftTechnologies/Delphi-Mocks
+  projectUrl: https://github.com/VSoftTechnologies/Neslib
+  repositoryUrl: https://github.com/VSoftTechnologies/Neslib
   repositoryCommit: #HASH#
   license: BSD-2-Clause
   readme: README.md
