@@ -11,10 +11,10 @@ metadata:
   projectUrl: https://github.com/VSoftTechnologies/Delphi-Mocks
   repositoryUrl: https://github.com/VSoftTechnologies/Delphi-Mocks
   repositoryCommit: #HASH#
-  license: Apache-2.0
+  license: BSD-2-Clause
   readme: README.md
   copyright: Erik van Bilsen"
-  tags: [ mocking, unit testing ]
+  tags: [ base library ]
 
 targetPlatforms:
   # use ranges to simplify the file
