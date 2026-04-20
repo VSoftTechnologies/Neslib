@@ -15,3 +15,4 @@ Entitlement.TemplateiOS.xml eol=lf
 *.inc linguist-language=Pascal
 
 *.dspec filter=insert-hash
+*.dspec.yaml filter=insert-hash

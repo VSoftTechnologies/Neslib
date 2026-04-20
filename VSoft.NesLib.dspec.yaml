@@ -1,0 +1,48 @@
+# DPM package spec file
+# Used to build packages
+
+min client version: 1.0
+# metadata describes the package to the user
+metadata:
+  id: NesLib.NesLib
+  version: 0.4.0
+  authors: [ Erik van Bilsen" ]
+  description: NesLib Base Library
+  projectUrl: https://github.com/VSoftTechnologies/Delphi-Mocks
+  repositoryUrl: https://github.com/VSoftTechnologies/Delphi-Mocks
+  repositoryCommit: #HASH#
+  license: Apache-2.0
+  readme: README.md
+  copyright: Erik van Bilsen"
+  tags: [ mocking, unit testing ]
+
+targetPlatforms:
+  # use ranges to simplify the file
+  - compilers: [ delphixe2, delphixe3 ]
+    platforms: [ win32, win64, macos32 ]
+    # if not specified default template used
+  - compiler: delphixe4
+    platforms: [ win32, win64, macos32, ios32, iossimulator ]
+  - compilers: [ delphixe5, delphixe6, delphixe7 ]
+    platforms: [ win32, win64, macos32, android, ios32, iossimulator ]
+  - compilers: [ delphixe8, delphi10.0, delphi10.1 ]
+    platforms: [ win32, win64, macos32, android, ios32, ios64, iossimulator ]
+  - compiler: delphi10.2
+    platforms: [ win32, win64, macos32, android, ios32, ios64, iossimulator, linux64 ]
+  - compiler: delphi10.3
+    platforms: [ win32, win64, macos32, macos64, android, android64, ios32, ios64, iossimulator, linux64 ]
+  - compiler: delphi10.4
+    platforms: [ win32, win64, macos64, android, android64, ios64, iossimulator, linux64 ]
+  - compilers: [ delphi11, delphi12 ]
+    platforms: [ win32, win64, macos64, macosarm64, android, android64, ios64, linux64 ]
+  - compilers: [ delphi13 ]
+    platforms: [ win32, win64, winarm64ec, macos64, macosarm64, android, android64, ios64, linux64 ]
+
+templates:
+  - name: default
+    source:
+      - src: ./LICENSE.txt
+      - src: ./*.pas
+        dest: ./source
+      - src: ./*.inc
+        dest: ./source
